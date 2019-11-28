@@ -1,0 +1,22 @@
+---
+layout: default
+title: Travel
+---
+
+<main>
+    <h1>travel</h1>
+
+    <p>I love to travel, and I noticed that I have never written about my experiences. This page is dedicated to mini travel blogs, which I will flesh out more as time goes on. </p>
+    
+    <ul>
+        {% for travel in site.travel %}
+            <li>
+                <h2><a href="{{ travel.url }}">{{ travel.country }}</a></h2>
+                <p>{{ travel.excerpt }}</p>
+            </li>
+        
+        {% endfor %}
+        
+    </ul>
+    
+    </main>
