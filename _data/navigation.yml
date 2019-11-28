@@ -1,0 +1,15 @@
+- name: Home
+  link: /
+- name: Photography
+  link: /photography.html
+- name: Art
+  link: /art.html
+- name: About
+  link: /about.html
+- name: Blog
+  link: /blog.html
+- name: Travel
+  link: /travel.html
+- name: Contact
+  link: /contact.html
+
